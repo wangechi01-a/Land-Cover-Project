@@ -28,7 +28,7 @@ pip install pandas geopandas numpy matplotlib seaborn labelencoder optuna catboo
 
 5. Train the final model using CatBoost for optimal performance.
 
-6. Evaluate the models using key performance metrics such as F1-score and log loss.
+6. Evaluate the models using key performance metrics such as Accuracy, F1-score and  ROC AUC. 
 
 #### Results
 
