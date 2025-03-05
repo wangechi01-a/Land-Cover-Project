@@ -19,10 +19,16 @@ pip install pandas geopandas numpy matplotlib seaborn labelencoder optuna catboo
 
 #### Usage
 1. Load and preprocess the dataset by handling missing values and encoding categorical variables.
+
 2. Perform exploratory data analysis (EDA) to uncover patterns and trends.
+
 3. Engineer and select features to enhance model performance.
+
 4. Train various classification models and compare their performance.
-5. Evaluate the models using key performance metrics such as accuracy, ROC AUC.
+
+5. Train the final model using CatBoost for optimal performance.
+
+6. Evaluate the models using key performance metrics such as F1-score and log loss.
 
 #### Results
 
