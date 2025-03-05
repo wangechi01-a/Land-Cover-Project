@@ -2,7 +2,7 @@
 #### Classification Model Development
 
 #### Overview
-This project focuses on building a classification model through comprehensive data preprocessing, feature engineering, and model training. The goal is to extract meaningful insights from the dataset and develop an effective predictive model.
+This project focuses on building a land cover classification model using a dataset containing geographic and environmental features. The goal is to preprocess the data, engineer relevant features, and train a robust classification model to accurately classify different land cover types(building, cropland, watercover).
 
 #### Features
 - Data Loading and Cleaning
@@ -22,10 +22,9 @@ pip install pandas geopandas numpy matplotlib seaborn labelencoder optuna catboo
 2. Perform exploratory data analysis (EDA) to uncover patterns and trends.
 3. Engineer and select features to enhance model performance.
 4. Train various classification models and compare their performance.
-5. Evaluate the models using key performance metrics such as accuracy, precision, recall, and F1-score.
+5. Evaluate the models using key performance metrics such as accuracy, ROC AUC.
 
 #### Results
 
-The final model is implemented using CatBoost, which provides robust performance and improved classification accuracy by handling categorical features efficiently and reducing overfitting.
-
+The final model, implemented using CatBoost, demonstrated strong classification performance, effectively distinguishing between land cover types. The model efficiently handled categorical features and reduced overfitting, making it highly suitable for environmental and geographic analysis.
 
