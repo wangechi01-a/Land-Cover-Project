@@ -14,7 +14,7 @@ This project focuses on building a classification model through comprehensive da
 #### Installation
 Ensure you have the required dependencies installed by running:
 ```bash
-pip install pandas numpy matplotlib seaborn scikit-learn
+pip install pandas geopandas numpy matplotlib seaborn labelencoder optuna catboost 
 ```
 
 #### Usage
@@ -25,6 +25,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 5. Evaluate the models using key performance metrics such as accuracy, precision, recall, and F1-score.
 
 #### Results
-The final model is designed to provide accurate classifications, leveraging the most relevant features identified through preprocessing and analysis.
+
+The final model is implemented using CatBoost, which provides robust performance and improved classification accuracy by handling categorical features efficiently and reducing overfitting.
 
 
