@@ -2,7 +2,7 @@
 #### Classification Model Development
 
 #### Overview
-This project focuses on building a land cover classification model using a dataset containing geographic and environmental features. The goal is to preprocess the data, engineer relevant features, and train a robust classification model to accurately classify different land cover types(building, cropland, watercover).
+This project focuses on classifying land cover into three categories: Buildings, Cropland, and Woody Vegetation Cover (>60%). The goal is to support environmental conservation efforts by providing a reliable model that can help monitor and manage land-use changes effectively. The dataset comprises geospatial data reflecting regions undergoing rapid transformation. By leveraging CatBoost, a gradient boosting algorithm optimized for categorical features, we developed a predictive model that outputs occurrence probabilities for each class. The model aids decision-making in sustainable land management by offering high-accuracy classifications and insights into land cover distributions.
 
 #### Features
 - Data Loading and Cleaning
@@ -30,7 +30,11 @@ pip install pandas geopandas numpy matplotlib seaborn labelencoder optuna catboo
 
 6. Evaluate the models using key performance metrics such as Accuracy, F1-score and  ROC AUC. 
 
-#### Results
+#### Deliverables
 
-The final model, implemented using CatBoost, demonstrated strong classification performance, effectively distinguishing between land cover types. The model efficiently handled categorical features and reduced overfitting, making it highly suitable for environmental and geographic analysis.
+Source Code and Notebooks: The repository contains Jupyter notebooks with data preprocessing, model training using CatBoost, evaluation, and prediction generation.
+
+Technical Report: A detailed report explaining the methodology, key findings, and model performance insights.
+
+Test Set Predictions: The final predictions were generated using CatBoost, formatted according to the sample submission, and saved as a CSV file.
 
