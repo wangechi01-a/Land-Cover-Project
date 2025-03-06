@@ -32,9 +32,7 @@ pip install pandas geopandas numpy matplotlib seaborn labelencoder optuna catboo
 
 #### Deliverables
 
-Source Code and Notebooks: The repository contains Jupyter notebooks with data preprocessing, model training using CatBoost, evaluation, and prediction generation.
-
-Technical Report: A detailed report explaining the methodology, key findings, and model performance insights.
-
-Test Set Predictions: The final predictions were generated using CatBoost, formatted according to the sample submission, and saved as a CSV file.
+- Source Code and Notebooks: The repository contains Jupyter notebooks with data preprocessing, model training using CatBoost, evaluation, and prediction generation.
+- Technical Report: A detailed report explaining the methodology, key findings, and model performance insights.
+- Test Set Predictions: The final predictions were generated using CatBoost, formatted according to the sample submission, and saved as a CSV file.
 
